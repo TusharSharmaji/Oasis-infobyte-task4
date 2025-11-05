@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>APJ Abdul Kalam Tribute</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+      font-family: 'Montserrat', Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #253856;
+    }
+    .main {
+      background: rgba(255,255,255,0.88);
+      border-radius: 22px;
+      box-shadow: 0 8px 32px 0 rgba(74,144,226,0.18), 0 2px 14px #bce;
+      max-width: 720px;
+      width: 97%;
+      margin: 38px auto;
+      overflow: hidden;
+      border: 2.5px solid transparent;
+      position: relative;
+      transition: box-shadow 0.3s;
+    }
+    .main::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      pointer-events: none;
+      border-radius: 22px;
+      border: 2.5px solid #50a7ff;
+      filter: blur(6px);
+      opacity: 0.3;
+      z-index: 1;
+    }
+    .img-box {
+      text-align: center;
+      padding: 38px 18px 12px 18px;
+    }
+    .img-box img {
+      width: 178px;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+      border: 6.5px solid #50a7ff;
+      box-shadow: 0 6px 22px #7ed6fc77;
+      margin-bottom: 14px;
+      transition: transform 0.22s;
+    }
+    .img-box img:hover {
+      transform: scale(1.048) rotate(-2deg);
+    }
+    h1 {
+      padding: 18px 38px 0 38px;
+      font-family: inherit;
+      color: #2467A2;
+      font-size: 2.6rem;
+      letter-spacing: 0.5px;
+      text-align: center;
+      margin-bottom: 4px;
+      text-shadow: 0 1px 0 #d7f4ff;
+    }
+    .subtitle {
+      color: #548baf;
+      padding-left: 0px;
+      font-size: 1.25rem;
+      letter-spacing: 0.7px;
+      text-align: center;
+      opacity: 0.85;
+      margin-bottom: 17px;
+    }
+    ul {
+      padding: 0 32px 6px 32px;
+      list-style: none;
+      margin: 0 0 18px 0;
+    }
+    ul li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 11px;
+      font-size: 1.06em;
+      letter-spacing: 0.09em;
+      font-weight: 400;
+      color: #3a536b;
+      background: linear-gradient(90deg,#edf6ff 90%,#c7f4ff 100%);
+      padding: 7px 17px 7px 0;
+      border-radius: 11px;
+      box-shadow: 0 1.2px 3.5px #e3eefb40;
+    }
+    ul li svg {
+      margin-right: 12px;
+      min-width: 22px;
+      vertical-align: -4px;
+    }
+    blockquote {
+      margin: 20px 44px 16px 65px;
+      background: linear-gradient(97deg,#50a7ff11 90%,#bce6ff70 100%);
+      padding: 18px 23px;
+      color: #3e719a;
+      border-left: 5px solid #50a7ff;
+      font-size: 1.13em;
+      font-style: italic;
+      border-radius: 8px;
+      box-shadow: 0 0 16px #d7f4ffc5;
+      display: flex;
+      align-items: flex-start;
+      gap: 13px;
+    }
+    blockquote svg {
+      min-width: 26px;
+      margin-top: 1px;
+      opacity: 0.84;
+    }
+    .footer {
+      text-align: right;
+      color: #789;
+      font-size: 15.3px;
+      padding: 0 25px 19px 0;
+      margin-top: 8px;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      opacity: 0.65;
+    }
+    @media (max-width: 600px){
+      .main {
+        padding: 0;
+        border-radius: 12px;
+      }
+      blockquote {margin: 17px 10px;}
+      ul, p {padding: 0 12px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="img-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/A._P._J._Abdul_Kalam.jpg" alt="APJ Abdul Kalam portrait">
+    </div>
+    <h1>Dr. APJ Abdul Kalam</h1>
+    <div class="subtitle">Missile Man of India & 11th President</div>
+    <ul>
+      <li>
+        <svg viewBox="0 0 24 24" width="23" height="23" fill="#48b1f6"><circle cx="12" cy="12" r="10" fill="#e9f3ff"/><path d="M8 7h8M8 11h8M8 15h6" stroke="#48b1f6" stroke-width="1.7" fill="none" stroke-linecap="round"/></svg>
+        Born: 15 October 1931, Rameswaram
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" width="23" height="23" fill="#48b1f6"><circle cx="12" cy="12" r="10" fill="#e9f3ff"/><path d="M8 16c1.333-2 4.667-2 6 0" stroke="#48b1f6" stroke-width="1.7" fill="none" stroke-linecap="round"/><circle cx="12" cy="10" r="3" stroke="#48b1f6" stroke-width="1.2" fill="#f9fcff"/></svg>
+        President of India: 2002-2007
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="#48b1f6"><rect x="6" y="11" width="12" height="7" rx="2" fill="#e9f3ff"/><path d="M9 13l2 2l4-4" stroke="#48b1f6" stroke-width="1.7" fill="none" stroke-linecap="round"/><rect x="9" y="7" width="6" height="4" rx="1" fill="#d0eafd"/></svg>
+        Key role in India’s 1998 nuclear tests
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" width="23" height="23" fill="#48b1f6"><path d="M12 3v18M21 12H3" stroke="#48b1f6" stroke-width="1.7" fill="none" stroke-linecap="round"/><circle cx="12" cy="12" r="9" fill="#e9f3ff"/></svg>
+        Author, scientist, and inspiration to youth
+      </li>
+    </ul>
+    <blockquote>
+      <svg viewBox="0 0 24 24" width="29" height="29" fill="#8cc2ee"><path d="M6 15c-3 0-3-4 0-7c.999-1 2-1 3 0" stroke="#62a0ea" stroke-width="2" fill="none"/><path d="M17 15c-3 0-3-4 0-7c1-1 2-1 3 0" stroke="#62a0ea" stroke-width="2" fill="none"/></svg>
+      “Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.”
+    </blockquote>
+    <div class="footer">
+      Tribute by [TUSHAR SHARMA]
+    </div>
+  </div>
+</body>
+</html>
